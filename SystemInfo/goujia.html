@@ -21,7 +21,7 @@
 </head>
 
 <body class="gray-bg">
-    <div class="wrapper wrapper-content animated fadeIn">
+    <div class="wrapper wrapper-content animated fadeInRight">
        
 
         <div class="row m-b-lg goujia">
@@ -30,9 +30,25 @@
 
                     <div class="tabs-left">
                     	<div class="zhiwu-bm">
-                    		<button>新增部门</button>
+                    		<button data-toggle="modal" data-target="#zhuwu-tj">新增部门</button>
                     	</div>
-                        
+                        		<div class="modal fade" id="zhuwu-tj" tabindex="1045" role="dialog" aria-labelledby="myModalLabel">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      
+								      <div class="modal-body">
+								      	<h5>新增部门</h5>
+								      	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								      	 <div class="bm-content">
+								      	 	<span>新增部门：<input type="text" /></span>
+								      	 	<button class="quxiao">取消</button>
+								      	 	<button class="save">保存</button>
+								      	 	
+								      	 </div>
+								      </div>
+								    </div>
+								  </div>
+								</div>
                         <ul class="nav nav-tabs">
                             <li class="active"><a data-toggle="tab" href="#tab-8"> 局领导</a></li>
                             <li class=""><a data-toggle="tab" href="#tab-9"> 办公室</a></li>
@@ -45,7 +61,24 @@
                         <div class="tab-content ">
                             <div id="tab-8" class="tab-pane active">
                                 <div class="panel-body">
-                                	<button class="zhiwu-tj">新增职务</button>
+                                	<button class="zhiwu-tj" data-toggle="modal" data-target="#bumen-tj">新增职务</button>
+                                	<div class="modal fade" id="bumen-tj" tabindex="1045" role="dialog" aria-labelledby="myModalLabel">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      
+								      <div class="modal-body">
+								      	<h5>新增职务</h5>
+								      	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								      	 <div class="bm-content">
+								      	 	<span>新增职务：<input type="text" /></span>
+								      	 	<button class="quxiao">取消</button>
+								      	 	<button class="save">保存</button>
+								      	 	
+								      	 </div>
+								      </div>
+								    </div>
+								  </div>
+								</div>
                                     <table class="footable table table table-striped table-hover datatable toggle-arrow-tiny" data-page-size="8">
 							              <thead class="blue">
 							                <tr>
@@ -58,21 +91,21 @@
 							                <tr>
 							                  <td>局领导</td>
 							                  <td>
-							                     <b>孙二二</b>
+							                     <b>二</b>
 							                  </td>
 							                  <td><button class="btn btn-delete">删除</button></td>
 							                </tr>
 							                 <tr>
 							                  <td>局领导</td>
 							                  <td>
-							                     <b>孙二二</b>
+							                     <b>二二</b>
 							                  </td>
 							                  <td><button class="btn btn-delete">删除</button></td>
 							                </tr>
 							                 <tr>
 							                  <td>局领导</td>
 							                  <td>
-							                     <b>孙二二</b>
+							                     <b>二二</b>
 							                  </td>
 							                  <td><button class="btn btn-delete">删除</button></td>
 							                </tr>
