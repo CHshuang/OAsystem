@@ -1,0 +1,196 @@
+html {
+	height: 100%
+}
+body.signin {
+	height: auto;
+	background: url(../img/login-background.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: rgba(255,255,255,.95)
+}
+body{ background: url(../images/lign-bt2.png); background-size:100% 100% ; background-repeat: no-repeat;}
+.form-group {
+    margin: 20px;
+}
+.form-group.Bt {
+    background: #c0dfef none repeat scroll 0 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;margin: 0;
+}
+.loginscreen button {
+    margin: 0 auto;
+    width: 90%;
+}
+.signinpanel {
+	width: 750px;
+	margin: 10% auto 0
+}
+.signinpanel .logopanel {
+	float: none;
+	width: auto;
+	padding: 0;
+	background: 0 0
+}
+.signinpanel .signin-info ul {
+	list-style: none;
+	padding: 0;
+	margin: 20px 0
+}
+.signinpanel .form-control {
+	display: block;
+	margin-top: 15px
+}
+.signinpanel .uname {
+	background: #fff url(../img/user.png) no-repeat 95% center;
+	color: #333
+}
+.signinpanel .pword {
+	background: #fff url(../img/locked.png) no-repeat 95% center;
+	color: #333
+}
+.signinpanel .btn {
+	margin-top: 15px
+}
+.signinpanel form {
+	background: rgba(255,255,255,.2);
+	border: 1px solid rgba(255,255,255,.3);
+	-moz-box-shadow: 0 3px 0 rgba(12,12,12,.03);
+	-webkit-box-shadow: 0 3px 0 rgba(12,12,12,.03);
+	box-shadow: 0 3px 0 rgba(12,12,12,.03);
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 30px
+}
+.signup-footer {
+	border-top: solid 1px rgba(255,255,255,.3);
+	margin: 20px 0;
+	padding-top: 15px
+}
+@media screen and (max-width:768px) {
+.signinpanel, .signuppanel {
+	margin: 0 auto;
+	width: 420px!important;
+	padding: 20px
+}
+.signinpanel form {
+	margin-top: 20px
+}
+.signup-footer, .signuppanel .form-control {
+	margin-bottom: 10px
+}
+.signup-footer .pull-left, .signup-footer .pull-right {
+	float: none!important;
+	text-align: center
+}
+.signinpanel .signin-info ul {
+	display: none
+}
+}
+@media screen and (max-width:320px) {
+.signinpanel, .signuppanel {
+	margin: 0 20px;
+	width: auto
+}
+}
+.btn-default {
+    background-color: #205b9a;
+    border-color: #205b9a;
+    color: #fff;
+}
+.form-control:focus, .single-line:focus {
+    border-color: #205b9a !important;
+}
+/* Google Font flat longshade Icon in pure css
+   Create with love by @LukyVj 
+   Inspired by so much people an works over the internet.
+*/
+
+
+.middle-box {
+    background: #fff;
+    border-radius: 5px;
+    height: 370px;
+    margin: 0 auto;
+    padding: 0;right: 1px;
+    position: relative;
+    top: 27%;
+    width: 395px;
+    z-index: 100;
+}
+/*.m-t {
+
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    float: left;
+    width: 245px;
+    height: 245px;
+    margin: 5px;
+    display: block;
+    background: rgb(150, 150, 150);
+    font-family: "Marck Script",  sans-serif;
+    text-align:center;
+    font-size: 13em;
+    font-weight: 500;
+    line-height:.75;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.m-t:after {
+    top: 0px;
+    color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    padding-top: 54.05px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 1px 1px 0px #000 ;
+    -moz-box-shadow:1px 1px 0px #000 ;
+    box-shadow:1px 1px 0px #000 ;
+}
+.m-t:before {
+    content: '';
+    display: block;
+    float: left;
+    width: 136%;
+    height: 136%;
+    position: absolute;
+    margin: 29%;
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background: -webkit-gradient(linear,60.06% 107.04%,39.94% -7.04%,from(rgba(0,0,0,.1)),to(rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(100deg,rgba(0,0,0,.1),rgba(0,0,0,0));
+    background: -moz-linear-gradient(100deg,rgba(0,0,0,.1),rgba(0,0,0,0));
+    background: -o-linear-gradient(100deg,rgba(0,0,0,.1),rgba(0,0,0,0));
+    background: linear-gradient(100deg,rgba(0,0,0,.1),rgba(0,0,0,0));
+}
+*/
+input.other {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e5e6e7;
+    border-radius: 1px;
+    color: inherit;
+    display: block;
+    font-size: 14px;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 70%;
+}
+   .other:focus{
+    border-color: #205b9a !important;
+}

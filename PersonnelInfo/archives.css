@@ -1,0 +1,239 @@
+/*-btn---样式完成--*/
+.navbar-form{padding: 0px;}
+input.form-control {
+    border: 1px solid #205b9a;
+    color: #000;
+}
+/*---人事管理--表格样式---*/
+.table > thead > tr > th {
+    border-bottom: 0 none;
+    /*border-left: 1px solid #fff;*/
+    text-align: center;
+}
+.table tbody tr {
+    border: 1px solid #205898;
+    text-align: center;
+}
+.table tbody tr td {
+    vertical-align: middle;
+}
+.table .btn {
+    background: red none repeat scroll 0 0;
+    color: #fff;
+    margin: 0 5px;
+}
+.footable tbody {
+    border-bottom: 2px solid #205898;
+}
+
+
+/*-------弹窗-------*/
+.modal-dialog{width:960px;height:580px;}
+.modal-body{height: 580px;padding:0px; overflow: hidden;}
+.modal-header{border: 0px;}
+button.close {
+    margin: 15px 14px 14px 15px ;
+}
+/*----弹窗  窗口  左侧----------*/
+.modal-body-left {
+    background: #ddd none repeat scroll 0 0;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    height: 680px; float: left;
+    width: 280px;
+}
+.modal-body-left img {
+    height: 160px;
+    margin: 60px 60px 20px 60px;
+    width: 160px;
+}
+
+.modal-body-left > ul {
+    margin: 0 auto;
+    width: 160px;
+}
+.modal-body-left li {
+    margin: 10px auto;
+}
+
+.modal-body-left li .btn {
+    width: 100%;
+}
+.modal-body-left li .btn i {
+    margin-right: 10px;
+}
+/*----------窗口 弹窗 -右侧----*/
+.modal-body-right {
+    
+    float: left;
+    height: 530px;
+    width: 678px;
+}
+
+.mrx.data-list {
+    height: 100%;
+}
+
+.mrx.data-list ul {
+    height: 90%;
+    padding: 20px 40px;
+}
+
+.mrx.data-list li {
+    width: 50%;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.mrx .btn.btn-primary {
+    margin: 0 287px;
+}
+
+.mrx.data-list form{
+    height: 90%;
+    padding: 20px 40px;
+}
+.mrx.data-list .form-group{
+	width: 50%;
+    float: left;
+    height: 40px;
+    line-height: 40px; margin:5px 0;
+}
+
+.mrx input.form-control {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #fff;
+}
+.qie{display: none;}
+.modal-body-right .qie {
+    height: 490px;
+    margin: 20px;
+}
+	.qie.head-list {
+    padding: 0 110px;
+	}
+	#avatar_form {
+	    float: left;
+	    width: 290px;
+	    height: 330px;
+	}
+	#avatar_form h4 {
+	    display: inline-block;
+	}
+	#avatar_form .avatar_container {
+	    border: 1px solid #DDD;
+	    width: 285px;
+	    height: 285px;position: relative;
+	}
+	#avatar_form .avatar_container form {
+	    padding: 0;
+	    margin: 0;
+	    width: 285px;
+	    height: 285px;
+	}
+	#avatar_form .avatar_container form .description {
+	    margin-top: 110px;
+	    margin-bottom: 10px;
+	    text-align: center;
+	    color: #777;
+	}
+	#avatar_form .avatar_container form .gd-btn{
+	    margin-left: 107px;
+	}
+	.gd-btn-info{background: #FFF;
+	    border: 1px solid #AAB2BD;
+	    color: #222222;}
+	.gd-btn{
+	    font-size: 12px;
+	    display: inline-block;
+	    padding: 0 28px;
+	    width: auto;
+	    height: auto;
+	    line-height: auto;
+	    /* text-align: center; */
+	    vertical-align: middle;
+	    line-height: 28px;
+	    border-radius: 2px;
+	    cursor: pointer;
+	}
+	.fileinput-button input {
+	     position: absolute; 
+	     top: 0; 
+	     right: 0; 
+	     margin: 0; 
+	     opacity: 0; 
+	    filter: alpha(opacity=0);
+	    height:100%;
+	    font-size: 23px;
+	    direction: ltr;
+	    cursor: pointer; width: 100%;
+	}
+	#avatar_preview {
+    	float: right;
+	}
+	#avatar_preview .preview.large {
+    width: 100px;
+    height: 100px;
+	}
+	
+	#avatar_preview .preview.normal {
+	    width: 50px;
+	    height: 50px;
+	}
+	
+	
+	#avatar_preview .preview.small {
+	    width: 20px;
+	    height: 20px;
+	}
+	
+	#avatar_preview .preview {
+	    border: 1px solid #DDD;
+	    overflow: hidden;
+	    margin-bottom: 10px;
+	}
+
+.qie.contract-list li {
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+}
+	.file-list {
+    height: 440px;
+    overflow-y: auto;
+	}
+	.qie .file-list > li {
+	    float: left;
+	    height: 225px;
+	    text-align: center;
+	    width: 155px;
+	}
+	.qie .file-list img {
+	    border: 1px solid #ddd;
+	    height: 175px;
+	    width: 130px;
+	}
+	.updata input[type="file"] {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+	}
+	.file-list .btn {
+	    margin: 0 3px;
+	}
+
+.qie.record-list li {
+    color: #727272;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+}
+	.qie.record-list ol {
+	    height: 490px;
+	    overflow-y: auto;
+	}

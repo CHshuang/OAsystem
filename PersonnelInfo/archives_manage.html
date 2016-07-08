@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+	<title>人事资料管理</title>
+	
+	<meta name="keywords" content="无线电管理局，郑州无线电管理局">
+    <meta name="description" content="无线电管理局，郑州无线电管理局">
+    <link rel="shortcut icon" href="favicon.ico"> 
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min93e3.css" rel="stylesheet">
+    <link href="../css/animate.min.css" rel="stylesheet">
+    <link href="archives.css" rel="stylesheet">
+    <link href="../css/style.min.css" rel="stylesheet">
+    
+ 
+</head>
+
+<body class="gray-bg">
+	<div class="wrapper wrapper-content animated fadeInDown">
+		<form class="navbar-form navbar-left" role="search">
+			<div class="btn-group">
+			  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    在职人员 <span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu">
+			    <li><a href="#">离职人员</a></li>
+			  </ul>
+			</div>
+			<!--在职人员 下拉-->
+			<div class="btn-group">
+			  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    所在科室 <span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu">
+			    <li><a href="#">办公室</a></li>
+			    <li><a href="#">监督检查科</a></li>
+			    <li><a href="#">频率管理科</a></li>
+			    <li><a href="#">台站管理科</a></li>
+			    <li><a href="#">无线电监测站</a></li>
+			    <li><a href="#">人事科</a></li>
+			  </ul>
+			</div>
+			<!--所在科室 下拉-->
+			<div class="btn-group">
+			  <input type="text" id="UserName" class="form-control" placeholder="姓名" aria-describedby="basic-addon1">
+			</div>
+			<!--姓名 搜索-->
+	        <button class="btn btn-default active" type="button"><i class="fa fa-search"></i> 查询</button>
+	        <button class="btn btn-default active" type="button"> 添加</button>
+	    </form>
+	    <!--表单搜索结束-->
+		<table class="footable table table table-striped table-hover datatable toggle-arrow-tiny" data-page-size="8">
+              <thead class="blue">
+                <tr>
+                  <th>ID号</th>
+                  <th>姓名</th>
+                  <th>性别</th>
+                  <th>民族</th>
+                  <th>出生日期</th>
+                  <th>学历</th>
+                  <th>所在科室</th>
+                  <th>职务</th>
+                  <th>政治面貌</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>001</td>
+                  <td>孙立国</td>
+                  <td>男</td>
+                  <td>汉</td>
+                  <td>1943-07-13</td>
+                  <td>本科</td>
+                  <td>局领导</td>
+                  <td>局领导</td>
+                  <td>党员</td>
+                  <td><button class="btn btn-details" data-toggle="modal" data-target="#myModal" type="button">查看详情</button><button class="btn btn-delete">删除</button></td>
+                </tr>
+                <tr>
+                  <td>002</td>
+                  <td>孙立国</td>
+                  <td>男</td>
+                  <td>汉</td>
+                  <td>1943-07-13</td>
+                  <td>本科</td>
+                  <td>局领导</td>
+                  <td>局领导</td>
+                  <td>党员</td>
+                  <td><button class="btn btn-details" data-toggle="modal" data-target="#myModal" type="button">查看详情</button><button class="btn btn-delete">删除</button></td>
+                </tr>
+                <tr>
+                  <td>003</td>
+                  <td>孙立国</td>
+                  <td>男</td>
+                  <td>汉</td>
+                  <td>1943-07-13</td>
+                  <td>本科</td>
+                  <td>局领导</td>
+                  <td>局领导</td>
+                  <td>党员</td>
+                  <td><button class="btn btn-details" data-toggle="modal" data-target="#myModal" type="button">查看详情</button><button class="btn btn-delete">删除</button></td>
+                </tr>
+                <tr>
+                  <td>001</td>
+                  <td>孙立国</td>
+                  <td>男</td>
+                  <td>汉</td>
+                  <td>1943-07-13</td>
+                  <td>本科</td>
+                  <td>局领导</td>
+                  <td>局领导</td>
+                  <td>党员</td>
+                  <td><button class="btn btn-details" data-toggle="modal" data-target="#myModal" type="button">查看详情</button><button class="btn btn-delete">删除</button></td>
+                </tr>
+                <tr>
+                  <td>002</td>
+                  <td>孙立国</td>
+                  <td>男</td>
+                  <td>汉</td>
+                  <td>1943-07-13</td>
+                  <td>本科</td>
+                  <td>局领导</td>
+                  <td>局领导</td>
+                  <td>党员</td>
+                  <td><button class="btn btn-details" data-toggle="modal" data-target="#myModal" type="button">查看详情</button><button class="btn btn-delete">删除</button></td>
+                </tr>
+                <tr>
+                  <td>003</td>
+                  <td>孙立国</td>
+                  <td>男</td>
+                  <td>汉</td>
+                  <td>1943-07-13</td>
+                  <td>本科</td>
+                  <td>局领导</td>
+                  <td>局领导</td>
+                  <td>党员</td>
+                  <td><button class="btn btn-details" data-toggle="modal" data-target="#myModal" type="button">查看详情</button><button class="btn btn-delete">删除</button></td>
+                </tr>
+                <tr>
+                  <td>001</td>
+                  <td>孙立国</td>
+                  <td>男</td>
+                  <td>汉</td>
+                  <td>1943-07-13</td>
+                  <td>本科</td>
+                  <td>局领导</td>
+                  <td>局领导</td>
+                  <td>党员</td>
+                  <td><button class="btn btn-details" data-toggle="modal" data-target="#myModal" type="button">查看详情</button><button class="btn btn-delete">删除</button></td>
+                </tr>
+                <tr>
+                  <td>002</td>
+                  <td>孙立国</td>
+                  <td>男</td>
+                  <td>汉</td>
+                  <td>1943-07-13</td>
+                  <td>本科</td>
+                  <td>局领导</td>
+                  <td>局领导</td>
+                  <td>党员</td>
+                  <td><button class="btn btn-details" data-toggle="modal" data-target="#myModal" type="button">查看详情</button><button class="btn btn-delete">删除</button></td>
+                </tr>
+                <tr>
+                  <td>003</td>
+                  <td>孙立国</td>
+                  <td>男</td>
+                  <td>汉</td>
+                  <td>1943-07-13</td>
+                  <td>本科</td>
+                  <td>局领导</td>
+                  <td>局领导</td>
+                  <td>党员</td>
+                  <td><button class="btn btn-details" data-toggle="modal" data-target="#myModal" type="button">查看详情</button><button class="btn btn-delete">删除</button></td>
+                </tr>
+              </tbody>
+              <tfoot>
+	            <tr>
+	                <td colspan="10">
+	                    <ul class="pagination pull-right"></ul>
+	                </td>
+	            </tr>
+	          </tfoot>
+           </table>			
+		<!--表格样式完成 带页码-->
+		<div class="modal fade" id="myModal" tabindex="1045" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      
+		      <div class="modal-body">
+		      	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <div class="modal-body-left">
+		        	<img src="../images/a5.jpg" />
+		        	<ul>
+		        		<li style="display: none;"></li>
+		        		<li><button class="btn btn-primary"><i class="fa fa-long-arrow-up"></i>上传照片</button></li>
+		        		<li><button class="btn btn-warning"><i class="fa fa-long-arrow-up"></i>人事合同</button></li>
+		        		<li><button class="btn btn-danger">查看修改记录</button></li>
+		        	</ul>
+		        </div><!--左侧头像 and 按钮完成-->
+		        <div class="modal-body-right">
+		        	<div class="mrx qie data-list">
+		        		<form class="form-inline">
+						  <div class="form-group">
+						    <label for="exampleInputName2">姓　　名：</label>
+						    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe" readOnly="ture">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputEmail2">性　　别：</label>
+						    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="11111@example.com" readOnly="ture">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputEmail2">民　　族：</label>
+						    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jan4537453mple.com" readOnly="ture">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputEmail2">籍　　贯：</label>
+						    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.agsdgasdple.com" readOnly="ture">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputEmail2">学　　历：</label>
+						    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="janeasdgacom" readOnly="ture">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputEmail2">所在科室：</label>
+						    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jsgasdgcom" readOnly="ture">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputEmail2">职　　务：</label>
+						    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jancvbndfnb.com" readOnly="ture">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputEmail2">政治面貌：</label>
+						    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jsgasgbagle.com" readOnly="ture">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputEmail2">出生日期：</label>
+						    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jagasdgasdgcom" readOnly="ture">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputEmail2">入党时间：</label>
+						    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jaasdgasdgom" readOnly="ture">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputEmail2">参加工作时间：</label>
+						    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="janasdgasgom" readOnly="ture">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputEmail2">手机号码：</label>
+						    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jaasdgasdgcom" readOnly="ture">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputEmail2">工作电话：</label>
+						    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="janasdgasdgm" readOnly="ture">
+						  </div>
+						  <div class="form-group">
+						    <label for="exampleInputEmail2">家庭住址：</label>
+						    <input type="email" class="form-control" id="exampleInputEmail4" placeholder="janasdgasgm" readOnly="ture">
+						  </div>
+						</form>
+		        		<button class="btn btn-primary" id="edit">编　辑</button>
+		        	</div>
+		        	<!--默认资料显示-->
+		        	<div class="qie head-list">
+		        		<!--<div class="toux-sc">
+			                <img src="images/xd-rst.png" />
+			            </div>
+			            <button class="btn btn-primary">上传头像</button>-->
+			            <div id="avatar_form">
+						    <h4>照片</h4>
+						
+						    <div class="avatar_container">
+							      <form class="clearfix upload-zone" action="" accept-charset="UTF-8" method="post">
+							      	<input type="hidden" name="utf8" value="✓">
+							      	<input type="hidden" name="_method" value="patch">
+							      	<input type="hidden" name="authenticity_token" value="2bWaRNHjuqg7cF/mTAb1j08+1KicnKT1zy1PPpx0hsBV5bp/Ai7iJn1FJnG6qAi3saH1LuyUN2Hsw+XJknoeoA==">
+							        <input type="hidden" name="page_refresh_url" id="page_refresh_url" value="https://jinshuju.net/profile/settings">
+							        <div class="description">请选择5MB以内的JPG、GIF、PNG格式的照片</div>
+							          <span class="gd-btn gd-btn-info gd-btn-small fileinput-button">
+							            <span>选择照片</span>
+							            <input accept="image/jpeg,image/png,image/gif" name="avatar_from" type="file">
+							          </span>
+							        <div id="avatar"></div>
+								  </form>    
+						    </div>
+						</div>
+		        		<div id="avatar_preview">
+						    <h4>预览</h4>
+						
+						    <div class="preview large"></div>
+						    <div class="preview normal"></div>
+						    <div class="preview small"></div>
+					    </div>
+		        		<div class="clearfix"></div>
+		        		<button class="btn btn-primary">保存头像</button>
+		        	</div>
+		        	<div class="qie contract-list">
+		        		<ul class="file-list">
+		        			<li><img src="../images/danan.png"/><button class="btn">下载</button><button class="btn">删除</button></li>
+		        			<li><img src="../images/danan.png"/><button class="btn">下载</button><button class="btn">删除</button></li>
+		        			<li><img src="../images/danan.png"/><button class="btn">下载</button><button class="btn">删除</button></li>
+		        			<li><img src="../images/danan.png"/><button class="btn">下载</button><button class="btn">删除</button></li>
+		        			<li><img src="../images/danan.png"/><button class="btn">下载</button><button class="btn">删除</button></li>
+		        			<li><img src="../images/danan.png"/><button class="btn">下载</button><button class="btn">删除</button></li>
+		        			<li><img src="../images/danan.png"/><button class="btn">下载</button><button class="btn">删除</button></li>
+		        			<li><img src="../images/danan.png"/><button class="btn">下载</button><button class="btn">删除</button></li>
+		        			<li><img src="../images/danan.png"/><button class="btn">下载</button><button class="btn">删除</button></li>
+		        			<li><img src="../images/danan.png"/><button class="btn">下载</button><button class="btn">删除</button></li>
+		        		</ul>
+		        		<div class="clearfix"></div>
+		        		<div class="updata"><input type="file" id="" placeholder="" class=""/><button class="btn btn-primary">上传</button></div>
+		        	</div>
+		        	<div class="qie record-list">
+		        		<ol>
+		        			<li>余华于2016年6月20日上传了此人事合同</li>
+		        			<li>余华于2016年6月21日上传了此人事合同</li>
+		        			<li>余华于2016年6月22日上传了此人事合同</li>
+		        			<li>余华于2016年6月23日上传了此人事合同</li>
+		        			<li>余华于2016年6月20日上传了此人事合同</li>
+		        			<li>余华于2016年6月20日上传了此人事合同</li>
+		        			<li>余华于2016年6月20日上传了此人事合同</li>
+		        			<li>余华于2016年6月20日上传了此人事合同</li>
+		        			<li>余华于2016年6月20日上传了此人事合同</li>
+		        			<li>余华于2016年6月20日上传了此人事合同</li>
+		        			<li>余华于2016年6月20日上传了此人事合同</li>
+		        			<li>余华于2016年6月20日上传了此人事合同</li>
+		        			<li>余华于2016年6月20日上传了此人事合同</li>
+		        			<li>余华于2016年6月20日上传了此人事合同</li>
+		        		</ol>
+		        	</div>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+    
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/plugins/footable/footable.all.min.js"></script><!--table 翻页js-->
+     <script>
+        $(document).ready(function(){$(".footable").footable();});
+        $("#edit").click(function(){
+        	$(".mrx").find(".form-control").attr("readOnly",false);
+        })
+//      $("#myModal").click(function(){
+//      	$(".mrx").find(".form-control").attr("readOnly",true);
+//      })
+
+$(function(){
+	$(".modal-body-left li").click(function(){
+		
+		var indexa=$(this).index();
+		$(".qie").eq(indexa).show().siblings().hide();
+	})
+	$(".modal-body-left li").eq(0).trigger("click");
+})
+    </script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/content.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* 账号设置页面头部 */
+.head { width: 100%; display: block; float: left; }
+.btn-group { margin-left: 40px; }
+.btn-group > .btn { height: 30px; line-height: 15px; width: 320px; text-align: left; }
+.input-group-btn a { background-color: #337ab7; width: 44px; height: 30px; display: inline-block; padding: 4px 5px 3px 11px; }
+.input-group-btn a img { width: 82%; }
+.bm_list { display: inline-block; width: 284px; }
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default.focus:active, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover { color: #333; background-color: #205B9A; border-color: #fff; }
+.dropdown-menu > li { width: 320px; }
+/* 搜索框 */
+.input-group { border: 1px solid #337AB7; border-radius: 5px; }
+.navbar-form .input-group > .form-control { width: 375px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+/*列表头部*/
+.zhhSet table tr th { width: 16.6%; text-align: center; background-color: #255c9a; color: #fff; height: 45px; }
+/* 列表主体内容 */
+.zhhSet table td.zhh_list_content { padding: 0; }
+.zhh_list_content .ibox-content { padding: 0; }
+.ibox.float-e-margins { margin-bottom: 10px; }
+.zhhSet .ibox-title { height: 40px; min-height: 40px; padding: 10px 30px 9px 49px; background-color: #a6937c; color: #fff; border-top: none; }
+.zhh_list_content .ibox-title span { height: 18px; border-radius: 20px; display: inline-block; border: 1px solid #fff; line-height: 15px; text-align: center; background-color: #fff; color: #000; margin-left: 10px; padding: 0 14px; }
+.ibox-tools, .fa.fa-chevron-up { color: #fff; }
+.zhh_list_content .ibox-content table tr td { width: 16.6%; text-align: center; padding: 8px 8px 5px 8px; }
+.table { margin-bottom: 0; }
+.zhh_list_content img { width: 30px; }
+.tx, .bj_img { display: inline-block; margin-right: 15px; min-width: 30px; }
+.ggtx {
+    margin-left: 6px;
+}
+.zhh_list_content strong { height: 30px; line-height: 30px; display: inline-block; padding: 0 5px 0 5px; }
+.zhh_list_content b { min-width: 55%; display: inline-block; text-align: center; }
+/* 按钮操作 */
+.zhh_list_content .btn.zhch,.zhh_list_content .ggtx,.zhh_list_content .btn.ty, .zhh_list_content .bj_img, .zhh_list_content .btn.bj, .zhh_list_content .btn.chzh_pwd, .zhh_list_content b, .zhh_list_content .btn.pzh { display: none; }

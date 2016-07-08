@@ -1,0 +1,45 @@
+.right {
+    float: right;
+}
+
+table {
+    text-align: center;
+}
+.blue th {
+    text-align: center;
+}
+table .btn {
+    margin: 0 4px;
+}
+.mub-mc {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.modal-dialog {
+    width: 965px;
+}
+.qx-xq {
+    height: 550px;
+    overflow-y: auto;
+}
+
+.qx-xq li ul li {
+    float: left;
+    height: 30px;
+    margin: 0 10px;
+}
+.qx-xq li {
+	font-size: 14px;
+    height: auto;
+}
+.YJ-input input {
+    margin-right: 10px;
+}
+.qx-xq > ul {
+    background: #f1f1f1 none repeat scroll 0 0;
+    margin-top: 5px;
+    padding: 13px;
+}
+.YJ-input.clearfix > ul {
+    margin-left: 10px;
+}

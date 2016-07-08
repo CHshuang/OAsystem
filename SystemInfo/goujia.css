@@ -1,0 +1,100 @@
+
+.wrapper-content {
+    padding: 20px 20px 0 20px;
+    height: 100%;
+}
+.m-b-lg {
+    height: 100%;
+}
+.col-sm-6 {
+    height: 100%;
+    width: 100%;
+}
+.tabs-container,.tabs-left,.tabs-container .tabs-left>.nav-tabs {
+    height: 100%;
+}
+table {
+    border-spacing: 0;
+    border-collapse: inherit;    
+    border: 1px solid #205C99;
+}
+.tabs-container .panel-body{padding: 20px 20px 0;}
+/*左侧*/
+.tabs-container .tabs-left{
+    position: relative;
+}
+
+.tabs-container .tabs-left>.nav-tabs {
+    background: #c6c6c6;
+}
+ul.nav.nav-tabs {
+    padding-top: 120px;
+}
+div.zhiwu-bm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    width: 20%;
+    height: 110px;
+    border-bottom: 1px solid #a2a2a2;
+}
+div.zhiwu-bm button {
+    display: block;
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #205c99;
+    color: #fff;
+    font-size: 15px;
+    margin: 35px auto 0;
+    border: none;
+}
+.nav-tabs>li>a{
+	padding:0px;color: #333;font-size: 16px;font-weight: normal;
+}
+.goujia li {
+    text-indent: 3em;height: 50px;
+}
+.tabs-container .tabs-left>.nav-tabs .active>a, .tabs-container .tabs-left>.nav-tabs .active>a:focus, .tabs-container .tabs-left>.nav-tabs .active>a:hover{background:#205c99;color: #fff;border: none;}
+/*右边表格*/
+button.zhiwu-tj {
+    display: block;
+    margin: 10px 0 20px;
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #158310;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+}
+thead.blue {
+    background: #205C99;
+}
+thead.blue tr {
+    height: 55px;
+    color: #fff;
+    text-indent: 2.5em;
+    font-size: 16px;
+    font-weight: normal;
+}
+tbody {
+    text-indent: 3em;
+}
+.table>tbody>tr>td{
+	border-top:1px solid #205C99 ;
+}
+.table tbody tr:nth-child(1) td{
+	border-top:none;
+}
+/*.table tbody tr td:nth-child(3){
+	width: 300px;
+}*/
+button.btn.btn-delete {
+    padding: 6px 25px;
+    background: #992020;
+    color: #fff;
+}
